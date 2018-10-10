@@ -1,0 +1,8 @@
+[package]
+description = Log known DHCP networks.
+tags = dhcp, documentation, log
+version = 1.0.0
+script_dir = scripts
+config_files = scripts/config.bro
+depends =
+    bro >=2.6.0
